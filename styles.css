@@ -1,0 +1,240 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+    background-color:#683924 ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .header img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    filter: brightness(70%);
+} */
+
+ .header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    background: #9c752d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-top: 5%;
+     justify-content: center;
+        align-items: center;
+}
+
+.message-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(150, 148, 55, 0.1);
+    border-radius: 8px;
+}
+
+blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #007bff;
+    padding-left: 15px;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+/* freespace */
+.free{
+    height: 150px;
+    width: 100%;
+    background-color:white;
+  }
+
+
+
+
+
+  /* facilities */
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+ header {
+    background-color: #002366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+} 
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.facility-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.facility-card {
+    width: 250px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.clubs { background-color: #bb8080;color: white; }
+.computerlab  { background-color: #909ad3; color: white; }
+.environment { background-color: #6b7c2c; color:white; }
+.library { background-color: #664c6e; color: white;}
+.sportsandgames {background-color: #002366; color: white;}
+.healthwellness {background-color:rgb(153, 149, 149) ; color: white;} 
+.physicaleducation {background-color: rgb(45, 124, 118);color: white;}
+.sciencelab {background-color:rgb(190, 90, 185) ; color: white;} 
+.playground {background-color: rgb(90, 55, 55);color: white;}
+.transport {
+    background-color: rgb(119, 69, 5);
+    color: white;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background-color: #dff0d8;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* ourfaculties */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #002366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.faculty-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.faculty-card {
+    width: 250px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.science { background-color: #e0e0e0; }
+.maths { background-color: #3f51b5; color: white; }
+.social{ background-color: #000; color: white; }
+.english { background-color: #d3d3d3; }
+.hindi, .arabic, .urdu, .sanskrit, .it, .pe {
+    background-color: rgb(172, 166, 166);
+    border: 1px solid #ccc;
+}
+
+/* footer {
+    background-color: #dff0d8;
+    padding: 20px;
+    text-align: center;
+}
+
+   */
+
+
+
+
+
+   /* gallery */
+
+   *{
+    box-sizing: border-box;
+   }
+   .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+
+
+   }
+   .gallery-item{
+    /* max-width: auto;
+    margin: 50px auto; */
+    flex: 1 1 calc(33.333% - 40px);
+    margin: 0;
+    overflow: hidden;
+   }
+ 
+  /*  .gallery-item li{
+    width: calc(100/3 - 40px/3);
+    margin-right: 20px;
+    margin-bottom: 20px; 
+
+  } */
+  .gallery-item  img{
+    height: auto;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  .gallery-item  img:hover{
+    transform: scale(1.1);
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
